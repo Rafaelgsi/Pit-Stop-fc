@@ -1,0 +1,193 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #0A0F1C;
+  color: #E0E0E0;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #112240;
+  color: #ffffff;
+  padding: 20px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.logo-img {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+}
+
+nav {
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  color: #E0E0E0;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  background-color: #1C7ED6;
+  color: #ffffff;
+  border-radius: 5px;
+}
+
+main {
+  padding: 30px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+h1,
+h2,
+h3 {
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+p {
+  line-height: 1.8;
+}
+
+ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  margin-bottom: 30px;
+}
+
+img {
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+}
+
+form {
+  background-color: #112240;
+  padding: 25px;
+  border-radius: 10px;
+  margin: 40px 0;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+form label,
+form p {
+  font-size: 18px;
+  margin: 0 0 10px;
+  display: block;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+  width: 100%;
+  padding: 10px 20px;
+  margin: 0 0 20px;
+  border: 1px solid #3B4252;
+  border-radius: 6px;
+  background-color: #0D1B2A;
+  color: #ffffff;
+  box-sizing: border-box;
+}
+
+form input[type="radio"],
+form input[type="checkbox"] {
+  margin-right: 8px;
+}
+
+form input[type="submit"] {
+  padding: 12px 25px;
+  background-color: #1C7ED6;
+  color: #ffffff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+  width: 100%;
+}
+
+form input[type="submit"]:hover {
+  background-color: #228BE6;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background-color: #112240;
+}
+
+table th,
+table td {
+  border: 1px solid #3B4252;
+  padding: 12px;
+  text-align: center;
+}
+
+table th {
+  background-color: #1C7ED6;
+  color: #ffffff;
+}
+
+table tr:nth-child(even) {
+  background-color: #0D1B2A;
+}
+
+footer {
+  background-color: #0D1B2A;
+  color: #ffffff;
+  text-align: center;
+  padding: 10px;
+  margin-top: 40px;
+}
+
+
+.caixa-imagem {
+  display: block;
+  margin: 20px auto;
+  max-width: 600px;
+  width: 100%;
+  padding: 10px;
+  background-color: #1a1f2e;
+  border: 2px solid #000000;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.6);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.caixa-imagem:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 16px rgba(255, 255, 255, 0.2);
+}
+
+.enviar {
+  width: 40%;
+  padding: 15px 0;
+  background-color: orange;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.enviar:hover {
+  background-color: darkorange;
+  transform: scale(1.2);
+}
