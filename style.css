@@ -192,13 +192,13 @@ footer {
   transform: scale(1.2);
 }
 section {
-  background-color: rgba(255, 255, 255, 0.8);
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  background-color: rgba(17, 34, 64, 0.9); /* azul escuro com leve transparência */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
   margin: 20px;
   padding: 20px;
-  border-radius: 8px;
+  border-radius: 10px;
+  color: #E0E0E0;
 }
-
 
 .caixa-imagem {
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
@@ -208,4 +208,7 @@ section {
 
 .caixa-imagem:hover {
   opacity: 1;
+}
+section h2, section p, section li {
+  color: #ffffff;
 }
