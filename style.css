@@ -96,7 +96,9 @@ form p {
 
 form input[type="text"],
 form input[type="email"],
-form textarea {
+form input[type="tel"],
+form textarea,
+form select {
   width: 100%;
   padding: 10px 20px;
   margin: 0 0 20px;
@@ -213,4 +215,65 @@ section li {
 .enviar:hover {
   background-color: darkorange;
   transform: scale(1.2);
+}
+
+/* Responsividade para telas pequenas (celulares) */
+@media (max-width: 768px) {
+  body {
+    padding: 10px;
+  }
+
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px 20px;
+  }
+
+  nav {
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+  }
+
+  nav a {
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 12px 0;
+    border-radius: 5px;
+    background-color: #1C7ED6;
+    color: white;
+  }
+
+  main {
+    padding: 10px;
+  }
+
+  .logo-img {
+    width: 60px;
+    height: 60px;
+  }
+
+  table {
+    font-size: 12px;
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+
+  .caixa-imagem {
+    max-width: 100%;
+    height: auto;
+  }
+
+  form {
+    padding: 15px;
+  }
+
+  form input[type="submit"],
+  .enviar {
+    width: 100%;
+    padding: 12px 0;
+    font-size: 16px;
+  }
 }
